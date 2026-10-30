@@ -1,0 +1,40 @@
+# Ignore upstream repositories (they have their own git history)
+linux/
+luci/
+packages/
+routing/
+iproute2/
+dpdk/
+xdp-tutorial/
+buildroot/
+u-boot/
+coreboot/
+openwrt/
+
+# Ignore build artifacts
+*.o
+*.a
+*.so
+*.ko
+*.bin
+*.img
+*.iso
+
+# Ignore temporary files
+*.tmp
+*.swp
+*~
+.DS_Store
+Thumbs.db
+
+# Ignore OpenWrt build directories
+dl/
+feeds/
+staging_dir/
+tmp/
+.buildconfig
+.config
+.config.old
+
+# Ignore log files
+*.log
